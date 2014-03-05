@@ -16,7 +16,7 @@ class Box:
         >>> b = Box(-1,-2)
         Traceback (most recent call last):
             ...
-        matryoshka_boxes.BoxValueError: Tried to create a box with negative dimensions
+        box.BoxValueError: Tried to create a box with negative dimensions
         """
         if (dim1 <0 or dim2 < 0):
             raise(BoxValueError("Tried to create a box with negative dimensions")) 
