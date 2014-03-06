@@ -58,7 +58,7 @@ def largest_box_subset(baby_boxes, mama_box, memo = None):
     # dynamic programming and memoization.
     
     #memo is a dictionary that you can use to make your solution use memoization
-    if not memo:
+    if memo is None:
         memo = {}
-
+        
     pass
